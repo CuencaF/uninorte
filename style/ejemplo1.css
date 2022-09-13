@@ -1,0 +1,41 @@
+body {
+    background-image: url("../images/images.jpg");
+    
+    background: rgb(255,255,255);
+    background-position:top right;
+    background-repeat:no-repeat;
+    font-size: 16px;
+}
+h1 {
+    font-size: 36pt;
+    color:hsl(194, 20%, 90%);
+}
+*{font-family: Verdana, Geneva, Tahoma, sans-serif}
+h2 {color: rgb(17, 247, 247);}
+p {margin-left: 50px;
+    border: 1px solid black;
+}
+p.normal {font-style:normal}
+	p.italic {font-style:italic}
+	p.oblique {font-style:oblique} 
+.tamano{
+    font-size: 10ex;
+}
+p.right {text-align:right;}
+p.center {text-align:center;} 
+.juanito{ color:orange;
+            text-transform: uppercase;
+            font-family: monospace;
+    }
+p.bold{
+        font-weight: bold;
+        text-decoration: underline;
+}
+#para1 {
+    text-align:center;
+	color:#aaffdd;
+		} 
+
+input{
+    border-radius:  15px;
+    }
